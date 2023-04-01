@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.green{
+    color: #86c232;
+}
+.title{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 80vh;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.login,.search{
+    padding: 20px;
+}
+
+
+/* form */
+input,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    background-color: #ffffff;
+}
+
+input[type=text],input[type=password],select{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 100%;
+    letter-spacing: 0.2em;
+}
+
+input[type=submit]{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+input[type=submit]:hover{
+    background-color: #86c232;
+    color: white
+}
+
+fieldset{
+    font-size: 20px;
+    border-radius: 10px;
+    border:5px #86c232 solid;
+    background-color: #86c232;
+    padding: 0  5px;
+}

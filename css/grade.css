@@ -1,0 +1,21 @@
+
+:root{
+    --green:#a4c639;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:var(--green);
+    color:#fff;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.btn:hover{
+    background:white;
+    color: var(--green);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+} 

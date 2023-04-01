@@ -25,21 +25,22 @@
     <input type="checkbox" name="" id="toggler">
     <label for="toggler" class="fas fa-bars"></label>
 
-    <a href="#" class="logo">university knowledge<span>.</span></a>
+    <a href="#home" class="logo">university knowledge<span>.</span></a>
 
     <nav class="navbar">
         <a href="#home" >home</a>
         <a href="#about" >about</a>
         <a href="#products">colleges</a>
         <a href="#contact">contact</a>
+        <a href="#good">ads</a>
         <a href="#location">location</a>
+        
     </nav>
     
-     <!-- <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
+     <div class="headrabsolute">
+       
         <a href="#" class="fas fa-user"></a>
-    </div>  -->
+    </div> 
     <script src="java.js/java.js"></script>
 </header>
 
@@ -64,7 +65,7 @@
 
 <section class="about" id="about">
 
-    <h1 class="heading"> <span> about </span> us </h1>
+    <h1 class="heading" > <span> about </span> us </h1>
 
     <div class="row">
 
@@ -75,13 +76,9 @@
         </div>
 
         <div class="content">
-            <!-- <h3>why choose us?</h3> -->
-            <p>مؤسسة تعليم عالي أهلية (غير ربحية) ذات طابع ثقافي ومعرفي، وعلمي
-.        أنشأت في العام (2016م) ومنحت الترخيص في العام ذاته من وزارة التعليم العالي والبحث العلمي بقرار وزاري رقم (262) لسنة 2016.</p>
-            <p>
-
-
-                . تأسست لتكون منارة للتعليم والرقي الحضاري والإنساني ونشر المعرفة والمحافظة عليها والاستفادة منها لإغناء عقول طلبتها بالمعارف والعلوم على أساس من العقلانية والرؤية الحضارية والمبادئ الربانية العظيمة.</p>
+             <h3>why choose us?</h3> 
+            <p>Lorem ipsum dolor sit, amet consectetuincidunt ratione, provident qui dolorem.</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur fugiat quod necessitatibus ratione dignissimos vel, quaerat ipsa temporibus, sint, laudantium facere laboriosam exercitationem sed velit eius sunt voluptatum explicabo beatae?</p>
             <a href="about.html" class="btn">learn more</a>
         </div>
 
@@ -90,25 +87,19 @@
 </section>
 
 <!-- about section ends -->
-
-<!-- icons section starts  -->
-
-
-<!-- icons section ends -->
-
-<!-- prodcuts section starts  -->
+<!-- colleges section starts  -->
 
 <section class="products" id="products">
-
-    <h1 class="heading"> col<span>leges</span> </h1>
+    <h1 class="heading" > <span> coll</span>eges </h1>
+    
 
     <div class="box-container">
 
         <div class="box">
            
             <div class="image">
-                <img src="images/1.jpg" alt="">
-                <div class="icons">
+                <img src="images/admin.jpg" alt="">
+                <div class="absolute">
                     
                     <a href="dean.html" class="cart-btn">go to content</a>
                    
@@ -116,7 +107,8 @@
             </div>
             <div class="content">
                  <h3>humanities & administrative sciences</h3> 
-                <div class="price"> $300.99 <span>$15.99</span> </div>
+                <div class="price"> $300.99 <span>$15.99</span> 
+                </div>
             </div>
         </div>
 
@@ -124,7 +116,7 @@
          
             <div class="image">
                 <img src="images/it.jpg" alt="">
-                <div class="icons">
+                <div class="absolute">
                
                     <a href="dean2.html" class="cart-btn">go to content</a>
                   
@@ -136,11 +128,11 @@
             </div>
         </div>
 
-        <div class="box">
+        <div class="box ">
            
             <div class="image">
                 <img src="images/3.jpg" alt="">
-                <div class="icons">
+                <div class="absolute">
                
                     <a href="dean3.html" class="cart-btn">go to content</a>
                    
@@ -156,29 +148,33 @@
 
 </section>
 
-<!-- prodcuts section ends -->
+<!-- colleges section ends -->
 
 
 
-<!-- review section starts  -->
-<section class="footer anno">
-    <h1 class="heading"> <span> goooo </span> ooood </h1>
+<!-- adver section starts  -->
+<section class="footer anno"  id="good">
+    <h1 class="heading"> <span> advertise</span>ment </h1>
     <div  class="new" >
-  <div class="all"></div>
-        <!-- <img class="mySlides" src="images/home-bg.jpg"  >
-        <img class="mySlides" src="images/architect.jpg" >
-        <img class="mySlides" src="images/home-bg.jpg" >
-        <img class="mySlides" src="images/marr.png"> -->
+  
+        <img class="mySlides" src="images/3.jpg"  >
+        <img class="mySlides" src="images/1.jpg" >
+        <img class="mySlides" src="images/2.jpg" >
+        <img class="mySlides" src="images/a3.jpg" >
+        <img class="mySlides" src="images/a4.jpg" >
+        <img class="mySlides" src="images/a5.jpg" >
+    
         <button class="display-left" onclick="plusDiva(-1)" style="font-size:20px;color:#a4c639;">&#10094;</button>
         <button class="display-right" onclick="plusDiva(1)"style="font-size:20px;color:#a4c639;" >&#10095;</button>
         
      
         </div>
         
+        
    
 </section>
 
-<!-- <script>
+ <script>
     var slideIndex = 1;
     showDiva(slideIndex);
     
@@ -196,9 +192,9 @@
       }
       x[slideIndex-1].style.display = "block";  
     }
-    </script> -->
+    </script>  
 
-<!-- review section ends -->
+
 
 <!-- contact section starts  -->
 
@@ -206,14 +202,18 @@
 
     <h1 class="heading"> <span> contact </span> us </h1>
 
+
+
+
+
     <div class="row color">
 
-        <form action="">
-            <input type="text" placeholder="name" class="box">
-            <input type="email" placeholder="email" class="box">
-            <input type="number" placeholder="number" class="box">
-            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn btnta">
+        <form action="./contact.php" method="post"  target="_blank" >
+            <input type="text" name="con_name" placeholder="الاسم" class="box">
+            <input type="email" name="email" placeholder="البريد الالكتروني" class="box">
+            <input type="number" name="phone" placeholder="رقم الهاتف" class="box">
+            <textarea name="commit" class="box" placeholder="اكتب رسالتك" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="ارسال" class="btn btnta">
         </form>
 
         <div class="image">
@@ -228,21 +228,68 @@
 
 <!-- footer section starts  -->
 
-<section class="footer" id="location">
-    <h1 class="heading"> <span> loca </span> tion </h1>
+<section class="footer  backfoter" id="location">
+    <h1 class="heading"> <span> loca</span>tion </h1>
         <img class="imgfot" src="images/map.jpg" alt="الموقع">
+</section>
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="boxfoot">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">colleges</a>
+            <a href="#contact">contact</a>
+            <a href="#location">location</a>
+            <a href="#good">ads</a>
+        </div>
+
+        <div class="boxfoot">
+            <h3>electronic gateways </h3>
+              <a   class="afott" href="http://www.kmsu.edu.ye/Accounts/StuffLogin">   <i   id="user" class="fa-solid fa-users-line"></i> employees  gateway</a>
+              <a   class="afott" href="student.php">    <i   id="user" class="fa-solid fa-users-line"></i> student gateway</a>
+              <a   class="afott" href="http://www.kmsu.edu.ye/Home/PhoneList">    <i   id="user" class="fa-solid fa-users-line"></i> internal transfers</a>
+              <a   class="afott" href="https://p.oasyemen.net/portal/"><i   id="user" class="fa-solid fa-users-line"></i> electronic registration</a>
+        </div>
+
+        <div class="boxfoot">
+            <h3>connect with us</h3>
+            
+            <a   class="afott" href="http://www.kmsu.edu.ye/Home/EmailList"><i   id="user" class="fa-solid fa-users-line"></i> mailing list</a>
+            <a   class="afott" href="contact.html"> <i class="fa-solid fa-envelope"></i>contact us</a>
+            <a href="#"> <i class="fa-solid fa-phone"></i> 01/484772  </a>
+            <a href="#"> <i class="fa-solid fa-phone-volume"></i> 777333918</a>
+        </div>
+
+        <div class="boxfoot">
+            <h3>contact info</h3>
+            <a href="#"> 01/484772</a>
+            <a href="#">  <i class="fa-solid fa-envelopes"></i> qusai@gmail.com</a>
+            <a href="#">Sana'a, Yemen - 9654+85M</a>
+        </div>
+
         <div class=" iconfot footer">
-            <div class="ss footer">
-              <a class="afot" href="#"><i id="fas" class="fab fa-facebook"></i></a>
-              <a   class="afot" href="#"><i  id="twi" class=" fab fa-twitter"></i><a>
-               <a  class="afot" href="#"><i  id="goo" class=" fab fa-google-plus-g"></i></a>
-              <a  class="afot" href="#"><i  id="ins" class=" fab fa-instagram" ></i></a>
+            <div class=" ">
+              <a   class="icon" href="https://www.facebook.com/Kmsu.edu.ye/"><i id="fas" class="fab fa-facebook"></i></a>
+              <a   class="icon" href="#"><i  id="twi" class=" fab fa-twitter"></i><a>
+               <a  class="icon" href="#"><i  id="goo" class=" fab fa-google-plus-g"></i></a>
+              <a   class="icon" href="#"><i  id="ins" class=" fab fa-instagram" ></i></a>
             
             </div>
             </div>
-            <div class="credit"> created by <span> mr. qusai designer </span> | all rights reserved </div>
-   
+    </div>
+
+    <div class="credit"> created by <span> mr.qusai al-Rumayma designer </span> | all rights reserved </div>
+
 </section>
+
+
+<img  class="svgg" src="images/wave.svg" alt=""> 
 
 
 
